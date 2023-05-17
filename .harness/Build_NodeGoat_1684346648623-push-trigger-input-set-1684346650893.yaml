@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_NodeGoat_1684346648623-push-trigger-input-set
+  identifier: Build_NodeGoat_1684346648623pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: VishNodeGoat
+  pipeline:
+    identifier: Build_NodeGoat_1684346648623
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
