@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_NodeGoat_1684346648623-pr-trigger-input-set
+  identifier: Build_NodeGoat_1684346648623prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: VishNodeGoat
+  pipeline:
+    identifier: Build_NodeGoat_1684346648623
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
